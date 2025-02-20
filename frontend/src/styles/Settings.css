@@ -1,0 +1,54 @@
+.settings {
+  width: 240px;
+  padding: 16px;
+  background-color: #ffffff;
+  border-left: 1px solid #e5e5ea;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.settings h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #1c1c1e;
+}
+
+.setting-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.setting-item label {
+  font-size: 14px;
+  color: #1c1c1e;
+  margin-bottom: 4px;
+}
+
+.short-input {
+  padding: 8px;
+  border: 1px solid #e5e5ea;
+  border-radius: 14px;
+  font-size: 14px;
+  width: 90%;
+  background-color: #ffffff;
+  color: #1c1c1e;
+}
+
+.save-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0a84ff;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #0060df;
+}
